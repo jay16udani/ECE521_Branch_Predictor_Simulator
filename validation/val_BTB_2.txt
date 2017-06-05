@@ -1,0 +1,1168 @@
+Command Line:
+./sim_bp gshare 10 6 7 4 traces/trace_perl.txt 
+
+Final BTB Tag Array Contents {valid, pc}: 
+Set     0:   {1, 0x  22e200}  {1, 0x  221600}  {1, 0x  214000}  {1, 0x  222a00}
+Set     1:   {1, 0x  20dc04}  {1, 0x  222c04}  {1, 0x  202804}  {1, 0x  21c204}
+Set     2:   {1, 0x  230208}  {1, 0x  214008}  {1, 0x  230408}  {1, 0x  233008}
+Set     3:   {1, 0x  202e0c}  {1, 0x  213a0c}  {1, 0x  20a40c}  {1, 0x  20ca0c}
+Set     4:   {1, 0x  230210}  {1, 0x  235c10}  {1, 0x  201c10}  {1, 0x  223010}
+Set     5:   {1, 0x  212e14}  {1, 0x  21f014}  {1, 0x  213c14}  {1, 0x  208814}
+Set     6:   {1, 0x  220218}  {1, 0x  212618}  {1, 0x  21bc18}  {1, 0x  201a18}
+Set     7:   {1, 0x  20061c}  {1, 0x  21421c}  {1, 0x  22301c}  {1, 0x  21ea1c}
+Set     8:   {1, 0x  21c420}  {1, 0x  235a20}  {1, 0x  20a420}  {1, 0x  20de20}
+Set     9:   {1, 0x  235c24}  {1, 0x  22de24}  {1, 0x  208824}  {1, 0x  211c24}
+Set    10:   {1, 0x  22c028}  {1, 0x  202228}  {1, 0x  21fc28}  {1, 0x  200628}
+Set    11:   {1, 0x  23322c}  {1, 0x  23402c}  {1, 0x  22de2c}  {1, 0x  23f02c}
+Set    12:   {1, 0x  214030}  {1, 0x  201030}  {1, 0x  214230}  {1, 0x  21bc30}
+Set    13:   {1, 0x  21fc34}  {1, 0x  201c34}  {1, 0x  22c034}  {1, 0x  202234}
+Set    14:   {1, 0x  21b638}  {1, 0x  202838}  {1, 0x  21ec38}  {1, 0x  20a238}
+Set    15:   {1, 0x  21ea3c}  {1, 0x  21fc3c}  {1, 0x  201c3c}  {1, 0x  21ec3c}
+Set    16:   {1, 0x  235c40}  {1, 0x  21b440}  {1, 0x  213c40}  {1, 0x  22de40}
+Set    17:   {1, 0x  230444}  {1, 0x  21fc44}  {1, 0x  22de44}  {1, 0x  201844}
+Set    18:   {1, 0x  208848}  {1, 0x  234048}  {1, 0x  202248}  {1, 0x  232e48}
+Set    19:   {1, 0x  20a44c}  {1, 0x  20064c}  {1, 0x  235e4c}  {1, 0x  201c4c}
+Set    20:   {1, 0x  22e450}  {1, 0x  233250}  {1, 0x  214050}  {1, 0x  233650}
+Set    21:   {1, 0x  201054}  {1, 0x  20a054}  {1, 0x  220654}  {1, 0x  233454}
+Set    22:   {1, 0x  20a458}  {1, 0x  200258}  {1, 0x  230458}  {1, 0x  201a58}
+Set    23:   {1, 0x  20a25c}  {1, 0x  234c5c}  {1, 0x  21fc5c}  {1, 0x  22305c}
+Set    24:   {1, 0x  235860}  {1, 0x  20d860}  {1, 0x  203460}  {1, 0x  234060}
+Set    25:   {1, 0x  213c64}  {1, 0x  21ec64}  {1, 0x  201a64}  {1, 0x  201064}
+Set    26:   {1, 0x  214068}  {1, 0x  235c68}  {1, 0x  202068}  {1, 0x  22de68}
+Set    27:   {1, 0x  20a06c}  {1, 0x  21be6c}  {1, 0x  23406c}  {1, 0x  214c6c}
+Set    28:   {1, 0x  213c70}  {1, 0x  214470}  {1, 0x  208870}  {1, 0x  232e70}
+Set    29:   {1, 0x  20a674}  {1, 0x  202274}  {1, 0x  235e74}  {1, 0x  21c274}
+Set    30:   {1, 0x  201c78}  {1, 0x  230478}  {1, 0x  204278}  {1, 0x  201078}
+Set    31:   {1, 0x  22167c}  {1, 0x  22267c}  {1, 0x  20407c}  {1, 0x  211c7c}
+Set    32:   {1, 0x  214480}  {1, 0x  229680}  {1, 0x  221480}  {1, 0x  222280}
+Set    33:   {1, 0x  21fc84}  {1, 0x  230284}  {1, 0x  22c084}  {1, 0x  214084}
+Set    34:   {1, 0x  203c88}  {1, 0x  236288}  {1, 0x  221a88}  {1, 0x  21f488}
+Set    35:   {1, 0x  20a68c}  {1, 0x  22048c}  {1, 0x  22e08c}  {1, 0x  20588c}
+Set    36:   {1, 0x  236290}  {1, 0x  233690}  {1, 0x  234090}  {1, 0x  20c890}
+Set    37:   {1, 0x  21be94}  {1, 0x  21c294}  {1, 0x  21f094}  {1, 0x  233e94}
+Set    38:   {1, 0x  21fc98}  {1, 0x  20a098}  {1, 0x  236498}  {1, 0x  211c98}
+Set    39:   {1, 0x  20a49c}  {1, 0x  20a69c}  {1, 0x  23029c}  {1, 0x  233e9c}
+Set    40:   {1, 0x  21c2a0}  {1, 0x  2204a0}  {1, 0x  21eaa0}  {1, 0x  21fca0}
+Set    41:   {1, 0x  203ca4}  {1, 0x  2088a4}  {1, 0x  2022a4}  {1, 0x  2140a4}
+Set    42:   {1, 0x  2146a8}  {1, 0x  2362a8}  {1, 0x  22c0a8}  {1, 0x  215aa8}
+Set    43:   {1, 0x  21eaac}  {1, 0x  20deac}  {1, 0x  20d8ac}  {1, 0x  2020ac}
+Set    44:   {1, 0x  22d6b0}  {1, 0x  2202b0}  {1, 0x  201eb0}  {1, 0x  2022b0}
+Set    45:   {1, 0x  222ab4}  {1, 0x  20a4b4}  {1, 0x  2006b4}  {1, 0x  202eb4}
+Set    46:   {1, 0x  21c2b8}  {1, 0x  211cb8}  {1, 0x  2304b8}  {1, 0x  214cb8}
+Set    47:   {1, 0x  2088bc}  {1, 0x  2020bc}  {1, 0x  201ebc}  {1, 0x  2340bc}
+Set    48:   {1, 0x  2008c0}  {1, 0x  2140c0}  {1, 0x  21f4c0}  {1, 0x  20dec0}
+Set    49:   {1, 0x  200ec4}  {1, 0x  2020c4}  {1, 0x  201cc4}  {1, 0x  2002c4}
+Set    50:   {1, 0x  2004c8}  {1, 0x  21fcc8}  {1, 0x  201ac8}  {1, 0x  2022c8}
+Set    51:   {1, 0x  204ccc}  {1, 0x  2008cc}  {1, 0x  233ecc}  {1, 0x  201acc}
+Set    52:   {1, 0x  2304d0}  {1, 0x  2144d0}  {1, 0x  21c2d0}  {1, 0x  21f4d0}
+Set    53:   {1, 0x  204cd4}  {1, 0x  233ed4}  {1, 0x  2004d4}  {1, 0x  2018d4}
+Set    54:   {1, 0x  2206d8}  {1, 0x  2074d8}  {1, 0x  2020d8}  {1, 0x  201ad8}
+Set    55:   {1, 0x  2336dc}  {1, 0x  21e4dc}  {1, 0x  2356dc}  {1, 0x  232edc}
+Set    56:   {1, 0x  214ce0}  {1, 0x  2074e0}  {1, 0x  2022e0}  {1, 0x  2040e0}
+Set    57:   {1, 0x  21f4e4}  {1, 0x  2340e4}  {1, 0x  21c2e4}  {1, 0x  22e0e4}
+Set    58:   {1, 0x  22d6e8}  {1, 0x  2372e8}  {1, 0x  2058e8}  {1, 0x  2182e8}
+Set    59:   {1, 0x  2018ec}  {1, 0x  2040ec}  {1, 0x  2004ec}  {1, 0x  20a4ec}
+Set    60:   {1, 0x  22c0f0}  {1, 0x  2018f0}  {1, 0x  201af0}  {1, 0x  2020f0}
+Set    61:   {1, 0x  235ef4}  {1, 0x  22e4f4}  {1, 0x  2022f4}  {1, 0x  22e2f4}
+Set    62:   {1, 0x  203cf8}  {1, 0x  2138f8}  {1, 0x  204cf8}  {1, 0x  20d8f8}
+Set    63:   {1, 0x  201afc}  {1, 0x  214cfc}  {1, 0x  232efc}  {1, 0x  2124fc}
+Set    64:   {1, 0x  233700}  {1, 0x  202900}  {1, 0x  201b00}  {1, 0x  203d00}
+Set    65:   {1, 0x  211d04}  {1, 0x  200f04}  {1, 0x  211904}  {1, 0x  200304}
+Set    66:   {1, 0x  22e108}  {1, 0x  214d08}  {1, 0x  233f08}  {1, 0x  204d08}
+Set    67:   {1, 0x  23050c}  {1, 0x  20a70c}  {1, 0x  201f0c}  {1, 0x  20d90c}
+Set    68:   {1, 0x  201d10}  {1, 0x  203d10}  {1, 0x  200310}  {1, 0x  21fd10}
+Set    69:   {1, 0x  200114}  {1, 0x  230514}  {1, 0x  203b14}  {1, 0x  220d14}
+Set    70:   {1, 0x  22d718}  {1, 0x  201b18}  {1, 0x  212918}  {1, 0x  21eb18}
+Set    71:   {1, 0x  203b1c}  {1, 0x  21251c}  {1, 0x  22151c}  {1, 0x  22271c}
+Set    72:   {1, 0x  233f20}  {1, 0x  21fb20}  {1, 0x  200120}  {1, 0x  238d20}
+Set    73:   {1, 0x  211d24}  {1, 0x  200f24}  {1, 0x  21c324}  {1, 0x  214d24}
+Set    74:   {1, 0x  21fd28}  {1, 0x  21e928}  {1, 0x  200f28}  {1, 0x  200928}
+Set    75:   {1, 0x  20c92c}  {1, 0x  21b72c}  {1, 0x  21fb2c}  {1, 0x  22d72c}
+Set    76:   {1, 0x  211930}  {1, 0x  230930}  {1, 0x  201b30}  {1, 0x  204d30}
+Set    77:   {1, 0x  235534}  {1, 0x  21e934}  {1, 0x  200d34}  {1, 0x  20dd34}
+Set    78:   {1, 0x  220138}  {1, 0x  212538}  {1, 0x  21e938}  {1, 0x  235738}
+Set    79:   {1, 0x  201b3c}  {1, 0x  20573c}  {1, 0x  22d93c}  {1, 0x  23613c}
+Set    80:   {1, 0x  230540}  {1, 0x  200d40}  {1, 0x  20a140}  {1, 0x  21e940}
+Set    81:   {1, 0x  22d944}  {1, 0x  213944}  {1, 0x  213d44}  {1, 0x  21b544}
+Set    82:   {1, 0x  230948}  {1, 0x  201b48}  {1, 0x  235748}  {1, 0x  21dd48}
+Set    83:   {1, 0x  21194c}  {1, 0x  21e94c}  {1, 0x  21e54c}  {1, 0x  21f54c}
+Set    84:   {1, 0x  230950}  {1, 0x  202750}  {1, 0x  235550}  {1, 0x  21f550}
+Set    85:   {1, 0x  20a354}  {1, 0x  202d54}  {1, 0x  204d54}  {1, 0x  21e954}
+Set    86:   {1, 0x  235758}  {1, 0x  21b758}  {1, 0x  212558}  {1, 0x  200158}
+Set    87:   {1, 0x  23595c}  {1, 0x  23555c}  {1, 0x  20035c}  {1, 0x  23355c}
+Set    88:   {1, 0x  20a360}  {1, 0x  21e960}  {1, 0x  212560}  {1, 0x  21fd60}
+Set    89:   {1, 0x  20b964}  {1, 0x  202d64}  {1, 0x  235764}  {1, 0x  21b364}
+Set    90:   {1, 0x  20a368}  {1, 0x  230368}  {1, 0x  214d68}  {1, 0x  213968}
+Set    91:   {1, 0x  21fd6c}  {1, 0x  22316c}  {1, 0x  23396c}  {1, 0x  200f6c}
+Set    92:   {1, 0x  20d970}  {1, 0x  21fb70}  {1, 0x  238d70}  {1, 0x  22df70}
+Set    93:   {1, 0x  235774}  {1, 0x  235574}  {1, 0x  235974}  {1, 0x  200374}
+Set    94:   {1, 0x  232d78}  {1, 0x  21b778}  {1, 0x  211b78}  {1, 0x  200d78}
+Set    95:   {1, 0x  210f7c}  {1, 0x  22d77c}  {1, 0x  21397c}  {1, 0x  22d37c}
+Set    96:   {1, 0x  20a380}  {1, 0x  235780}  {1, 0x  202180}  {1, 0x  211980}
+Set    97:   {1, 0x  22d784}  {1, 0x  222584}  {1, 0x  20dd84}  {1, 0x  230384}
+Set    98:   {1, 0x  233588}  {1, 0x  202d88}  {1, 0x  212988}  {1, 0x  21c388}
+Set    99:   {1, 0x  23658c}  {1, 0x  20dd8c}  {1, 0x  20218c}  {1, 0x  21278c}
+Set   100:   {1, 0x  222390}  {1, 0x  213990}  {1, 0x  238d90}  {1, 0x  229790}
+Set   101:   {1, 0x  235794}  {1, 0x  22d394}  {1, 0x  20dd94}  {1, 0x  210f94}
+Set   102:   {1, 0x  222398}  {1, 0x  21fd98}  {1, 0x  21b798}  {1, 0x  200f98}
+Set   103:   {1, 0x  23599c}  {1, 0x  21b79c}  {1, 0x  22279c}  {1, 0x  21fd9c}
+Set   104:   {1, 0x  20a3a0}  {1, 0x  2303a0}  {1, 0x  2023a0}  {1, 0x  2087a0}
+Set   105:   {1, 0x  21c1a4}  {1, 0x  22d3a4}  {1, 0x  200fa4}  {1, 0x  235da4}
+Set   106:   {1, 0x  22d7a8}  {1, 0x  211ba8}  {1, 0x  22dfa8}  {1, 0x  21e5a8}
+Set   107:   {1, 0x  200fac}  {1, 0x  22d7ac}  {1, 0x  21ebac}  {1, 0x  2357ac}
+Set   108:   {1, 0x  235db0}  {1, 0x  213fb0}  {1, 0x  21fdb0}  {1, 0x  20a5b0}
+Set   109:   {1, 0x  21fbb4}  {1, 0x  21c3b4}  {1, 0x  2015b4}  {1, 0x  2129b4}
+Set   110:   {1, 0x  238db8}  {1, 0x  213bb8}  {1, 0x  203bb8}  {1, 0x  2023b8}
+Set   111:   {1, 0x  2057bc}  {1, 0x  20a3bc}  {1, 0x  21e9bc}  {1, 0x  21ebbc}
+Set   112:   {1, 0x  2357c0}  {1, 0x  21fdc0}  {1, 0x  22dfc0}  {1, 0x  20a5c0}
+Set   113:   {1, 0x  21b3c4}  {1, 0x  21bdc4}  {1, 0x  20a3c4}  {1, 0x  22e1c4}
+Set   114:   {1, 0x  21e9c8}  {1, 0x  21efc8}  {1, 0x  235dc8}  {1, 0x  20a1c8}
+Set   115:   {1, 0x  21f5cc}  {1, 0x  201fcc}  {1, 0x  2001cc}  {1, 0x  20a3cc}
+Set   116:   {1, 0x  21ebd0}  {1, 0x  22ddd0}  {1, 0x  20a1d0}  {1, 0x  21efd0}
+Set   117:   {1, 0x  21f5d4}  {1, 0x  21fdd4}  {1, 0x  2303d4}  {1, 0x  212dd4}
+Set   118:   {1, 0x  2019d8}  {1, 0x  213bd8}  {1, 0x  22e1d8}  {1, 0x  235dd8}
+Set   119:   {1, 0x  2059dc}  {1, 0x  2333dc}  {1, 0x  202ddc}  {1, 0x  213fdc}
+Set   120:   {1, 0x  2001e0}  {1, 0x  2139e0}  {1, 0x  2303e0}  {1, 0x  2005e0}
+Set   121:   {1, 0x  2361e4}  {1, 0x  209fe4}  {1, 0x  2059e4}  {1, 0x  2109e4}
+Set   122:   {1, 0x  20c9e8}  {1, 0x  21ffe8}  {1, 0x  21dfe8}  {1, 0x  202de8}
+Set   123:   {1, 0x  21efec}  {1, 0x  2001ec}  {1, 0x  201fec}  {1, 0x  20a3ec}
+Set   124:   {1, 0x  222bf0}  {1, 0x  21f5f0}  {1, 0x  2303f0}  {1, 0x  2357f0}
+Set   125:   {1, 0x  212df4}  {1, 0x  211bf4}  {1, 0x  2005f4}  {1, 0x  20a5f4}
+Set   126:   {1, 0x  2303f8}  {1, 0x  2229f8}  {1, 0x  2231f8}  {1, 0x  2325f8}
+Set   127:   {1, 0x  222bfc}  {1, 0x  2087fc}  {1, 0x  2361fc}  {1, 0x  235bfc}
+
+
+Final GShare Table Contents: 
+table[0]: 3 
+table[1]: 3 
+table[2]: 0 
+table[3]: 0 
+table[4]: 3 
+table[5]: 0 
+table[6]: 1 
+table[7]: 0 
+table[8]: 0 
+table[9]: 0 
+table[10]: 0 
+table[11]: 3 
+table[12]: 2 
+table[13]: 3 
+table[14]: 3 
+table[15]: 2 
+table[16]: 3 
+table[17]: 0 
+table[18]: 3 
+table[19]: 0 
+table[20]: 3 
+table[21]: 3 
+table[22]: 3 
+table[23]: 1 
+table[24]: 3 
+table[25]: 1 
+table[26]: 0 
+table[27]: 3 
+table[28]: 3 
+table[29]: 3 
+table[30]: 3 
+table[31]: 0 
+table[32]: 3 
+table[33]: 3 
+table[34]: 0 
+table[35]: 0 
+table[36]: 3 
+table[37]: 0 
+table[38]: 0 
+table[39]: 0 
+table[40]: 3 
+table[41]: 0 
+table[42]: 3 
+table[43]: 0 
+table[44]: 0 
+table[45]: 0 
+table[46]: 1 
+table[47]: 3 
+table[48]: 0 
+table[49]: 2 
+table[50]: 1 
+table[51]: 0 
+table[52]: 3 
+table[53]: 0 
+table[54]: 3 
+table[55]: 0 
+table[56]: 2 
+table[57]: 0 
+table[58]: 0 
+table[59]: 3 
+table[60]: 2 
+table[61]: 0 
+table[62]: 3 
+table[63]: 0 
+table[64]: 0 
+table[65]: 0 
+table[66]: 0 
+table[67]: 0 
+table[68]: 3 
+table[69]: 3 
+table[70]: 3 
+table[71]: 0 
+table[72]: 3 
+table[73]: 3 
+table[74]: 0 
+table[75]: 1 
+table[76]: 2 
+table[77]: 3 
+table[78]: 0 
+table[79]: 0 
+table[80]: 0 
+table[81]: 3 
+table[82]: 0 
+table[83]: 2 
+table[84]: 3 
+table[85]: 3 
+table[86]: 3 
+table[87]: 0 
+table[88]: 3 
+table[89]: 0 
+table[90]: 0 
+table[91]: 0 
+table[92]: 1 
+table[93]: 0 
+table[94]: 2 
+table[95]: 3 
+table[96]: 2 
+table[97]: 3 
+table[98]: 0 
+table[99]: 2 
+table[100]: 3 
+table[101]: 2 
+table[102]: 0 
+table[103]: 2 
+table[104]: 3 
+table[105]: 2 
+table[106]: 0 
+table[107]: 0 
+table[108]: 3 
+table[109]: 2 
+table[110]: 3 
+table[111]: 0 
+table[112]: 3 
+table[113]: 2 
+table[114]: 0 
+table[115]: 0 
+table[116]: 3 
+table[117]: 0 
+table[118]: 0 
+table[119]: 0 
+table[120]: 3 
+table[121]: 0 
+table[122]: 0 
+table[123]: 3 
+table[124]: 3 
+table[125]: 0 
+table[126]: 3 
+table[127]: 1 
+table[128]: 3 
+table[129]: 3 
+table[130]: 3 
+table[131]: 3 
+table[132]: 3 
+table[133]: 0 
+table[134]: 2 
+table[135]: 3 
+table[136]: 0 
+table[137]: 2 
+table[138]: 3 
+table[139]: 0 
+table[140]: 3 
+table[141]: 3 
+table[142]: 1 
+table[143]: 0 
+table[144]: 0 
+table[145]: 0 
+table[146]: 3 
+table[147]: 3 
+table[148]: 3 
+table[149]: 3 
+table[150]: 0 
+table[151]: 3 
+table[152]: 3 
+table[153]: 0 
+table[154]: 0 
+table[155]: 0 
+table[156]: 3 
+table[157]: 0 
+table[158]: 3 
+table[159]: 3 
+table[160]: 0 
+table[161]: 3 
+table[162]: 2 
+table[163]: 2 
+table[164]: 3 
+table[165]: 2 
+table[166]: 0 
+table[167]: 3 
+table[168]: 0 
+table[169]: 3 
+table[170]: 3 
+table[171]: 3 
+table[172]: 0 
+table[173]: 0 
+table[174]: 1 
+table[175]: 3 
+table[176]: 3 
+table[177]: 0 
+table[178]: 3 
+table[179]: 2 
+table[180]: 3 
+table[181]: 0 
+table[182]: 0 
+table[183]: 2 
+table[184]: 1 
+table[185]: 3 
+table[186]: 1 
+table[187]: 3 
+table[188]: 0 
+table[189]: 0 
+table[190]: 2 
+table[191]: 3 
+table[192]: 0 
+table[193]: 3 
+table[194]: 3 
+table[195]: 0 
+table[196]: 3 
+table[197]: 0 
+table[198]: 3 
+table[199]: 0 
+table[200]: 3 
+table[201]: 3 
+table[202]: 0 
+table[203]: 3 
+table[204]: 2 
+table[205]: 0 
+table[206]: 3 
+table[207]: 3 
+table[208]: 3 
+table[209]: 3 
+table[210]: 0 
+table[211]: 3 
+table[212]: 3 
+table[213]: 0 
+table[214]: 3 
+table[215]: 0 
+table[216]: 3 
+table[217]: 3 
+table[218]: 3 
+table[219]: 0 
+table[220]: 0 
+table[221]: 0 
+table[222]: 3 
+table[223]: 2 
+table[224]: 3 
+table[225]: 3 
+table[226]: 0 
+table[227]: 0 
+table[228]: 3 
+table[229]: 3 
+table[230]: 0 
+table[231]: 0 
+table[232]: 0 
+table[233]: 0 
+table[234]: 0 
+table[235]: 2 
+table[236]: 2 
+table[237]: 3 
+table[238]: 3 
+table[239]: 3 
+table[240]: 1 
+table[241]: 3 
+table[242]: 0 
+table[243]: 0 
+table[244]: 3 
+table[245]: 0 
+table[246]: 3 
+table[247]: 0 
+table[248]: 3 
+table[249]: 3 
+table[250]: 3 
+table[251]: 0 
+table[252]: 3 
+table[253]: 0 
+table[254]: 3 
+table[255]: 3 
+table[256]: 3 
+table[257]: 3 
+table[258]: 0 
+table[259]: 0 
+table[260]: 3 
+table[261]: 3 
+table[262]: 3 
+table[263]: 3 
+table[264]: 0 
+table[265]: 3 
+table[266]: 1 
+table[267]: 0 
+table[268]: 3 
+table[269]: 3 
+table[270]: 2 
+table[271]: 0 
+table[272]: 3 
+table[273]: 0 
+table[274]: 0 
+table[275]: 0 
+table[276]: 3 
+table[277]: 2 
+table[278]: 1 
+table[279]: 1 
+table[280]: 0 
+table[281]: 0 
+table[282]: 0 
+table[283]: 0 
+table[284]: 1 
+table[285]: 3 
+table[286]: 1 
+table[287]: 2 
+table[288]: 2 
+table[289]: 3 
+table[290]: 0 
+table[291]: 2 
+table[292]: 3 
+table[293]: 2 
+table[294]: 3 
+table[295]: 3 
+table[296]: 2 
+table[297]: 3 
+table[298]: 3 
+table[299]: 0 
+table[300]: 0 
+table[301]: 0 
+table[302]: 3 
+table[303]: 3 
+table[304]: 2 
+table[305]: 3 
+table[306]: 0 
+table[307]: 3 
+table[308]: 0 
+table[309]: 3 
+table[310]: 3 
+table[311]: 2 
+table[312]: 3 
+table[313]: 3 
+table[314]: 3 
+table[315]: 0 
+table[316]: 2 
+table[317]: 3 
+table[318]: 3 
+table[319]: 0 
+table[320]: 3 
+table[321]: 0 
+table[322]: 0 
+table[323]: 2 
+table[324]: 3 
+table[325]: 0 
+table[326]: 2 
+table[327]: 0 
+table[328]: 3 
+table[329]: 3 
+table[330]: 3 
+table[331]: 3 
+table[332]: 3 
+table[333]: 3 
+table[334]: 0 
+table[335]: 3 
+table[336]: 1 
+table[337]: 3 
+table[338]: 0 
+table[339]: 3 
+table[340]: 3 
+table[341]: 3 
+table[342]: 2 
+table[343]: 0 
+table[344]: 3 
+table[345]: 3 
+table[346]: 3 
+table[347]: 0 
+table[348]: 3 
+table[349]: 0 
+table[350]: 0 
+table[351]: 2 
+table[352]: 3 
+table[353]: 2 
+table[354]: 0 
+table[355]: 3 
+table[356]: 3 
+table[357]: 2 
+table[358]: 3 
+table[359]: 2 
+table[360]: 0 
+table[361]: 0 
+table[362]: 3 
+table[363]: 0 
+table[364]: 0 
+table[365]: 0 
+table[366]: 0 
+table[367]: 0 
+table[368]: 3 
+table[369]: 3 
+table[370]: 0 
+table[371]: 3 
+table[372]: 3 
+table[373]: 3 
+table[374]: 3 
+table[375]: 0 
+table[376]: 0 
+table[377]: 3 
+table[378]: 3 
+table[379]: 0 
+table[380]: 3 
+table[381]: 0 
+table[382]: 3 
+table[383]: 3 
+table[384]: 3 
+table[385]: 3 
+table[386]: 0 
+table[387]: 3 
+table[388]: 3 
+table[389]: 0 
+table[390]: 1 
+table[391]: 1 
+table[392]: 0 
+table[393]: 3 
+table[394]: 3 
+table[395]: 0 
+table[396]: 2 
+table[397]: 3 
+table[398]: 0 
+table[399]: 0 
+table[400]: 3 
+table[401]: 3 
+table[402]: 0 
+table[403]: 2 
+table[404]: 3 
+table[405]: 3 
+table[406]: 3 
+table[407]: 2 
+table[408]: 3 
+table[409]: 0 
+table[410]: 3 
+table[411]: 2 
+table[412]: 3 
+table[413]: 3 
+table[414]: 0 
+table[415]: 0 
+table[416]: 3 
+table[417]: 3 
+table[418]: 0 
+table[419]: 2 
+table[420]: 3 
+table[421]: 0 
+table[422]: 1 
+table[423]: 3 
+table[424]: 2 
+table[425]: 3 
+table[426]: 3 
+table[427]: 1 
+table[428]: 3 
+table[429]: 3 
+table[430]: 0 
+table[431]: 0 
+table[432]: 3 
+table[433]: 0 
+table[434]: 0 
+table[435]: 2 
+table[436]: 0 
+table[437]: 3 
+table[438]: 1 
+table[439]: 1 
+table[440]: 0 
+table[441]: 0 
+table[442]: 3 
+table[443]: 3 
+table[444]: 0 
+table[445]: 0 
+table[446]: 0 
+table[447]: 0 
+table[448]: 0 
+table[449]: 0 
+table[450]: 0 
+table[451]: 0 
+table[452]: 3 
+table[453]: 1 
+table[454]: 0 
+table[455]: 0 
+table[456]: 3 
+table[457]: 0 
+table[458]: 3 
+table[459]: 3 
+table[460]: 3 
+table[461]: 0 
+table[462]: 0 
+table[463]: 1 
+table[464]: 3 
+table[465]: 0 
+table[466]: 0 
+table[467]: 0 
+table[468]: 1 
+table[469]: 3 
+table[470]: 3 
+table[471]: 0 
+table[472]: 0 
+table[473]: 3 
+table[474]: 3 
+table[475]: 0 
+table[476]: 3 
+table[477]: 0 
+table[478]: 1 
+table[479]: 0 
+table[480]: 3 
+table[481]: 3 
+table[482]: 0 
+table[483]: 3 
+table[484]: 2 
+table[485]: 1 
+table[486]: 0 
+table[487]: 1 
+table[488]: 2 
+table[489]: 3 
+table[490]: 3 
+table[491]: 0 
+table[492]: 2 
+table[493]: 0 
+table[494]: 0 
+table[495]: 3 
+table[496]: 3 
+table[497]: 3 
+table[498]: 1 
+table[499]: 3 
+table[500]: 0 
+table[501]: 0 
+table[502]: 3 
+table[503]: 0 
+table[504]: 3 
+table[505]: 3 
+table[506]: 0 
+table[507]: 3 
+table[508]: 3 
+table[509]: 0 
+table[510]: 3 
+table[511]: 0 
+table[512]: 1 
+table[513]: 3 
+table[514]: 3 
+table[515]: 1 
+table[516]: 3 
+table[517]: 0 
+table[518]: 0 
+table[519]: 3 
+table[520]: 0 
+table[521]: 0 
+table[522]: 1 
+table[523]: 3 
+table[524]: 3 
+table[525]: 3 
+table[526]: 0 
+table[527]: 0 
+table[528]: 0 
+table[529]: 0 
+table[530]: 3 
+table[531]: 0 
+table[532]: 3 
+table[533]: 1 
+table[534]: 1 
+table[535]: 3 
+table[536]: 0 
+table[537]: 1 
+table[538]: 1 
+table[539]: 0 
+table[540]: 3 
+table[541]: 3 
+table[542]: 1 
+table[543]: 0 
+table[544]: 2 
+table[545]: 3 
+table[546]: 0 
+table[547]: 1 
+table[548]: 0 
+table[549]: 2 
+table[550]: 2 
+table[551]: 3 
+table[552]: 0 
+table[553]: 0 
+table[554]: 3 
+table[555]: 3 
+table[556]: 3 
+table[557]: 3 
+table[558]: 0 
+table[559]: 0 
+table[560]: 0 
+table[561]: 0 
+table[562]: 0 
+table[563]: 3 
+table[564]: 3 
+table[565]: 3 
+table[566]: 3 
+table[567]: 3 
+table[568]: 2 
+table[569]: 0 
+table[570]: 0 
+table[571]: 3 
+table[572]: 0 
+table[573]: 3 
+table[574]: 0 
+table[575]: 3 
+table[576]: 3 
+table[577]: 1 
+table[578]: 0 
+table[579]: 0 
+table[580]: 2 
+table[581]: 3 
+table[582]: 3 
+table[583]: 3 
+table[584]: 3 
+table[585]: 2 
+table[586]: 3 
+table[587]: 2 
+table[588]: 0 
+table[589]: 0 
+table[590]: 1 
+table[591]: 3 
+table[592]: 0 
+table[593]: 3 
+table[594]: 3 
+table[595]: 3 
+table[596]: 0 
+table[597]: 0 
+table[598]: 1 
+table[599]: 3 
+table[600]: 3 
+table[601]: 3 
+table[602]: 0 
+table[603]: 3 
+table[604]: 3 
+table[605]: 0 
+table[606]: 3 
+table[607]: 2 
+table[608]: 0 
+table[609]: 0 
+table[610]: 3 
+table[611]: 1 
+table[612]: 0 
+table[613]: 0 
+table[614]: 3 
+table[615]: 2 
+table[616]: 3 
+table[617]: 0 
+table[618]: 1 
+table[619]: 1 
+table[620]: 3 
+table[621]: 0 
+table[622]: 3 
+table[623]: 3 
+table[624]: 0 
+table[625]: 0 
+table[626]: 3 
+table[627]: 3 
+table[628]: 3 
+table[629]: 1 
+table[630]: 3 
+table[631]: 3 
+table[632]: 0 
+table[633]: 3 
+table[634]: 0 
+table[635]: 3 
+table[636]: 3 
+table[637]: 1 
+table[638]: 3 
+table[639]: 0 
+table[640]: 0 
+table[641]: 1 
+table[642]: 3 
+table[643]: 0 
+table[644]: 3 
+table[645]: 1 
+table[646]: 3 
+table[647]: 0 
+table[648]: 3 
+table[649]: 0 
+table[650]: 3 
+table[651]: 2 
+table[652]: 3 
+table[653]: 0 
+table[654]: 3 
+table[655]: 0 
+table[656]: 0 
+table[657]: 0 
+table[658]: 0 
+table[659]: 0 
+table[660]: 0 
+table[661]: 0 
+table[662]: 3 
+table[663]: 3 
+table[664]: 0 
+table[665]: 2 
+table[666]: 3 
+table[667]: 0 
+table[668]: 0 
+table[669]: 0 
+table[670]: 3 
+table[671]: 0 
+table[672]: 0 
+table[673]: 1 
+table[674]: 0 
+table[675]: 3 
+table[676]: 2 
+table[677]: 3 
+table[678]: 0 
+table[679]: 1 
+table[680]: 3 
+table[681]: 0 
+table[682]: 3 
+table[683]: 0 
+table[684]: 3 
+table[685]: 2 
+table[686]: 0 
+table[687]: 0 
+table[688]: 0 
+table[689]: 0 
+table[690]: 3 
+table[691]: 0 
+table[692]: 3 
+table[693]: 2 
+table[694]: 3 
+table[695]: 3 
+table[696]: 2 
+table[697]: 3 
+table[698]: 3 
+table[699]: 3 
+table[700]: 3 
+table[701]: 3 
+table[702]: 0 
+table[703]: 0 
+table[704]: 0 
+table[705]: 3 
+table[706]: 2 
+table[707]: 0 
+table[708]: 2 
+table[709]: 3 
+table[710]: 3 
+table[711]: 3 
+table[712]: 3 
+table[713]: 3 
+table[714]: 3 
+table[715]: 3 
+table[716]: 3 
+table[717]: 0 
+table[718]: 0 
+table[719]: 0 
+table[720]: 3 
+table[721]: 0 
+table[722]: 0 
+table[723]: 3 
+table[724]: 3 
+table[725]: 2 
+table[726]: 3 
+table[727]: 0 
+table[728]: 2 
+table[729]: 3 
+table[730]: 3 
+table[731]: 1 
+table[732]: 3 
+table[733]: 0 
+table[734]: 0 
+table[735]: 0 
+table[736]: 3 
+table[737]: 0 
+table[738]: 3 
+table[739]: 3 
+table[740]: 3 
+table[741]: 0 
+table[742]: 0 
+table[743]: 3 
+table[744]: 0 
+table[745]: 3 
+table[746]: 3 
+table[747]: 3 
+table[748]: 3 
+table[749]: 0 
+table[750]: 0 
+table[751]: 0 
+table[752]: 0 
+table[753]: 0 
+table[754]: 0 
+table[755]: 3 
+table[756]: 3 
+table[757]: 0 
+table[758]: 0 
+table[759]: 1 
+table[760]: 2 
+table[761]: 0 
+table[762]: 3 
+table[763]: 3 
+table[764]: 3 
+table[765]: 0 
+table[766]: 0 
+table[767]: 0 
+table[768]: 3 
+table[769]: 0 
+table[770]: 0 
+table[771]: 2 
+table[772]: 0 
+table[773]: 2 
+table[774]: 3 
+table[775]: 1 
+table[776]: 0 
+table[777]: 3 
+table[778]: 0 
+table[779]: 3 
+table[780]: 3 
+table[781]: 0 
+table[782]: 0 
+table[783]: 3 
+table[784]: 0 
+table[785]: 0 
+table[786]: 0 
+table[787]: 1 
+table[788]: 3 
+table[789]: 0 
+table[790]: 2 
+table[791]: 3 
+table[792]: 2 
+table[793]: 3 
+table[794]: 1 
+table[795]: 0 
+table[796]: 0 
+table[797]: 0 
+table[798]: 3 
+table[799]: 0 
+table[800]: 3 
+table[801]: 0 
+table[802]: 2 
+table[803]: 2 
+table[804]: 3 
+table[805]: 0 
+table[806]: 3 
+table[807]: 3 
+table[808]: 0 
+table[809]: 3 
+table[810]: 0 
+table[811]: 0 
+table[812]: 0 
+table[813]: 0 
+table[814]: 3 
+table[815]: 0 
+table[816]: 1 
+table[817]: 0 
+table[818]: 3 
+table[819]: 2 
+table[820]: 3 
+table[821]: 1 
+table[822]: 3 
+table[823]: 0 
+table[824]: 3 
+table[825]: 1 
+table[826]: 0 
+table[827]: 1 
+table[828]: 3 
+table[829]: 0 
+table[830]: 3 
+table[831]: 0 
+table[832]: 2 
+table[833]: 3 
+table[834]: 0 
+table[835]: 3 
+table[836]: 3 
+table[837]: 1 
+table[838]: 0 
+table[839]: 1 
+table[840]: 3 
+table[841]: 3 
+table[842]: 3 
+table[843]: 3 
+table[844]: 1 
+table[845]: 0 
+table[846]: 2 
+table[847]: 0 
+table[848]: 0 
+table[849]: 0 
+table[850]: 0 
+table[851]: 1 
+table[852]: 3 
+table[853]: 0 
+table[854]: 3 
+table[855]: 3 
+table[856]: 2 
+table[857]: 3 
+table[858]: 0 
+table[859]: 1 
+table[860]: 3 
+table[861]: 0 
+table[862]: 3 
+table[863]: 3 
+table[864]: 0 
+table[865]: 0 
+table[866]: 3 
+table[867]: 0 
+table[868]: 3 
+table[869]: 0 
+table[870]: 1 
+table[871]: 3 
+table[872]: 0 
+table[873]: 3 
+table[874]: 3 
+table[875]: 0 
+table[876]: 3 
+table[877]: 0 
+table[878]: 0 
+table[879]: 0 
+table[880]: 3 
+table[881]: 0 
+table[882]: 3 
+table[883]: 0 
+table[884]: 3 
+table[885]: 0 
+table[886]: 3 
+table[887]: 3 
+table[888]: 3 
+table[889]: 3 
+table[890]: 2 
+table[891]: 1 
+table[892]: 2 
+table[893]: 0 
+table[894]: 3 
+table[895]: 0 
+table[896]: 3 
+table[897]: 0 
+table[898]: 3 
+table[899]: 3 
+table[900]: 3 
+table[901]: 0 
+table[902]: 3 
+table[903]: 0 
+table[904]: 3 
+table[905]: 1 
+table[906]: 0 
+table[907]: 2 
+table[908]: 3 
+table[909]: 0 
+table[910]: 1 
+table[911]: 3 
+table[912]: 3 
+table[913]: 0 
+table[914]: 3 
+table[915]: 3 
+table[916]: 2 
+table[917]: 0 
+table[918]: 3 
+table[919]: 3 
+table[920]: 3 
+table[921]: 0 
+table[922]: 2 
+table[923]: 3 
+table[924]: 1 
+table[925]: 3 
+table[926]: 3 
+table[927]: 1 
+table[928]: 3 
+table[929]: 3 
+table[930]: 0 
+table[931]: 1 
+table[932]: 3 
+table[933]: 0 
+table[934]: 3 
+table[935]: 0 
+table[936]: 0 
+table[937]: 1 
+table[938]: 0 
+table[939]: 3 
+table[940]: 3 
+table[941]: 0 
+table[942]: 2 
+table[943]: 3 
+table[944]: 3 
+table[945]: 0 
+table[946]: 1 
+table[947]: 3 
+table[948]: 3 
+table[949]: 3 
+table[950]: 3 
+table[951]: 0 
+table[952]: 3 
+table[953]: 3 
+table[954]: 3 
+table[955]: 3 
+table[956]: 0 
+table[957]: 3 
+table[958]: 0 
+table[959]: 0 
+table[960]: 1 
+table[961]: 0 
+table[962]: 3 
+table[963]: 0 
+table[964]: 3 
+table[965]: 1 
+table[966]: 1 
+table[967]: 3 
+table[968]: 0 
+table[969]: 3 
+table[970]: 0 
+table[971]: 0 
+table[972]: 0 
+table[973]: 1 
+table[974]: 3 
+table[975]: 3 
+table[976]: 0 
+table[977]: 1 
+table[978]: 0 
+table[979]: 0 
+table[980]: 1 
+table[981]: 1 
+table[982]: 2 
+table[983]: 0 
+table[984]: 3 
+table[985]: 0 
+table[986]: 0 
+table[987]: 3 
+table[988]: 0 
+table[989]: 0 
+table[990]: 3 
+table[991]: 3 
+table[992]: 2 
+table[993]: 0 
+table[994]: 3 
+table[995]: 1 
+table[996]: 3 
+table[997]: 0 
+table[998]: 0 
+table[999]: 0 
+table[1000]: 2 
+table[1001]: 0 
+table[1002]: 2 
+table[1003]: 3 
+table[1004]: 0 
+table[1005]: 3 
+table[1006]: 3 
+table[1007]: 3 
+table[1008]: 0 
+table[1009]: 0 
+table[1010]: 0 
+table[1011]: 2 
+table[1012]: 3 
+table[1013]: 0 
+table[1014]: 3 
+table[1015]: 0 
+table[1016]: 3 
+table[1017]: 0 
+table[1018]: 0 
+table[1019]: 0 
+table[1020]: 0 
+table[1021]: 1 
+table[1022]: 0 
+table[1023]: 3 
+
+Final GHR Contents: 0x       5 
+
+Final Branch Predictor Statistics:
+a. Number of branches: 2000000
+b. Number of predictions from the branch predictor: 1965120
+c. Number of mispredictions from the branch predictor: 225422
+d. Number of mispredictions from the BTB: 20704
+e. Misprediction Rate: 12.31 percent

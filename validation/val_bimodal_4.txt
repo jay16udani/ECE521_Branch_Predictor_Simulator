@@ -1,0 +1,75 @@
+Command Line:
+./sim_bp bimodal 6 0 0 traces/trace_perl.txt 
+
+Final Bimodal Table Contents: 
+table[0]: 2 
+table[1]: 0 
+table[2]: 0 
+table[3]: 2 
+table[4]: 2 
+table[5]: 0 
+table[6]: 2 
+table[7]: 3 
+table[8]: 0 
+table[9]: 3 
+table[10]: 0 
+table[11]: 3 
+table[12]: 3 
+table[13]: 0 
+table[14]: 1 
+table[15]: 3 
+table[16]: 0 
+table[17]: 0 
+table[18]: 3 
+table[19]: 3 
+table[20]: 3 
+table[21]: 0 
+table[22]: 3 
+table[23]: 0 
+table[24]: 3 
+table[25]: 0 
+table[26]: 0 
+table[27]: 3 
+table[28]: 3 
+table[29]: 3 
+table[30]: 0 
+table[31]: 2 
+table[32]: 2 
+table[33]: 1 
+table[34]: 0 
+table[35]: 1 
+table[36]: 3 
+table[37]: 0 
+table[38]: 1 
+table[39]: 1 
+table[40]: 1 
+table[41]: 1 
+table[42]: 3 
+table[43]: 0 
+table[44]: 2 
+table[45]: 0 
+table[46]: 3 
+table[47]: 1 
+table[48]: 3 
+table[49]: 0 
+table[50]: 3 
+table[51]: 2 
+table[52]: 3 
+table[53]: 0 
+table[54]: 3 
+table[55]: 0 
+table[56]: 1 
+table[57]: 0 
+table[58]: 3 
+table[59]: 3 
+table[60]: 2 
+table[61]: 0 
+table[62]: 3 
+table[63]: 0 
+
+Final Branch Predictor Statistics:
+a. Number of branches: 2000000
+b. Number of predictions from the branch predictor: 2000000
+c. Number of mispredictions from the branch predictor: 530070
+d. Number of mispredictions from the BTB: 0
+e. Misprediction Rate: 26.50 percent
